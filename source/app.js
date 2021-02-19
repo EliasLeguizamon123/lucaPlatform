@@ -9,6 +9,8 @@ const comunidadRouter = require('./routes/comunidad');
 
     //Setings 
 app.set('port', 3000);
+app.set('view engine', 'pug');
+app.set('views', path.resolve(__dirname, 'views'));
 
     //Middlewares
 app.use(morgan('dev'));
