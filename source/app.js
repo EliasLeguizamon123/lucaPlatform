@@ -5,6 +5,8 @@ const mysql = require('mysql');
 
 const app = express();
 
+const comunidadRouter = require('./routes/comunidad');
+
     //Setings 
 app.set('port', 3000);
 
@@ -13,7 +15,7 @@ app.use(morgan('dev'));
 
     //Routes
 app.use(require('./routes/index.js'));
-//Define routes for questions
+app.use('/comunidad', comunidadRouter);
 
     //Statics
 app.use(express.static(path.join(__dirname, 'public')));
