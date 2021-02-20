@@ -1,6 +1,6 @@
 const mysql = require('mysql');
 
-//Connection to BD, if i drop this dosent work
+//Connection to BD inside of route
 let connection = mysql.createConnection({
     host: 'localhost',                      
     user: 'root',                           
@@ -10,10 +10,8 @@ let connection = mysql.createConnection({
 });
 
 module.exports = (app) => {
-    let entries = [];
-    app.locals.entries = entries;
 
-    //Route /comunidad
+    //Route /comunidad, render objetc preguntas whith SQL query inside
     app.get('/comunidad',(req, res) => {
         connection.query('SELECT * FROM preguntas', (err, rows, fields) =>{
             if(err) throw err;
@@ -40,17 +38,10 @@ module.exports = (app) => {
             res.send(400).send('Las publicaciones deben tener un título y un cuerpo');
         }
     
-    //Save data in newEntry
-    let newEntry = {
-        title: req.body.title,
-        content: req.body.body,
-        published: new Date()
-    }
 
-    entries.push(newEntry);
 
-    //Use inputs of title and body whith newEntry date for connection query insert
-    connection.query('INSERT INTO preguntas(titulo, cuerpo, fecha) VALUES(?, ?, ?)', [req.body.title, req.body.body, newEntry.published],
+    //Use inputs of title and body whith object newDate date for connection query insert
+    connection.query('INSERT INTO preguntas(titulo, cuerpo, fecha) VALUES(?, ?, ?)', [req.body.title, req.body.body, new Date()],
         (err, rows, fields) =>{
             if(err) throw err;
                 console.log(rows);
