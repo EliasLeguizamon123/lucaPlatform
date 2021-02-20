@@ -41,6 +41,8 @@ Home actual de la web
 
 ![preguntas](https://github.com/EliasLeguizamon123/lucaPlatform/blob/main/platformQuestion.png)
 
+Crear preguntas dentro del sitio
+
 ## 4 - Lista pendiente para el futuro
 
 - [ ] Cambiar MySQL por MongoDB o Firebase
