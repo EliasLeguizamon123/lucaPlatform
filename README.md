@@ -1,6 +1,6 @@
 # LucaPlatform
 
-### Somos una plataforma para niños de entre 6 y 17 años de edad (Primaria y Secundaria)
+### Plataforma para niños de entre 6 y 17 años de edad (Primaria y Secundaria)
 
 ## 1 - Comandos útiles para configurar este software en tu PC correctamente
 
