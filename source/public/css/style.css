@@ -72,8 +72,71 @@ i{
     padding-top: 3.2rem;
     text-align: center;
     list-style: none;
+    margin-left: 2rem;
 }
 
+.sidebar-body .home, .ayuda, .cursos, .quizzes, .estudios{
+    background-position: 8px 1px;
+    background-repeat: no-repeat;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    margin-bottom: 2rem;
+    border-radius: 2.5rem;
+    border: 0px;
+    font-size: 0.8rem;
+}
+    .sidebar-body .home:hover, .ayuda:hover, .cursos:hover, .quizzes:hover, .estudios:hover{
+        background-color: #EDEEFF;
+        color: #3843D0;
+    }
+
+.comunidad{
+    background: url("../images/comunidad.png");
+    background-position: 8px 1px;
+    background-repeat: no-repeat;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    margin-bottom: 2rem;
+    border-radius: 2.5rem;
+    border: 0px;
+    font-size: 0.8rem;
+    color: #3843D0;
+    background-color: #EDEEFF;
+}
+    .comunidad:hover{
+        color: #3843D0;
+        background-color: #EDEEFF;
+    }
+
+.home{
+    background: url("../images/home.png");
+    background-position: 8px 1px;
+    background-repeat: no-repeat;
+}
+
+.cursos{
+    background: url("../images/videos.png");
+    background-position: 8px 1px;
+    background-repeat: no-repeat;
+}
+
+.quizzes{
+    background: url("../images/quizzes.png");
+    background-position: 8px 1px;
+    background-repeat: no-repeat;
+}
+
+.estudios{
+    background: url("../images/estudios.png");
+    background-position: 8px 1px;
+    background-repeat: no-repeat;
+}
+
+.ayuda{
+    background: url("../images/ayuda.png");
+    background-position: 8px 1px;
+    background-repeat: no-repeat;
+}
 .btn-home{
     border: 0;
 }
@@ -163,6 +226,5 @@ i{
     margin-left: 2rem;
 }
 .share{
-    margin-left: 10rem;
+    margin-left: 8rem;
 }
-

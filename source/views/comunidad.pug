@@ -1,15 +1,20 @@
 html 
     include includes/head.pug
     body
-        div(container-fluid )
-            div(id="sidebar")
-                div(class="sidebar-header row")
-                    div(class="col-3")
-                        img(src="../images/lucaLogo.png")
-                div(class="sidebar-body row")
-                    div(class="col-3")
-                        img(src="../images/home.png") 
-
+        div(class="container-fluid")
+            div(class="row")
+                div(id="sidebar")
+                    div(class="sidebar-header row")
+                        div(class="col-3")
+                            img(src="../images/lucaLogo.png")
+                    div(class="sidebar-body row")
+                        div(class="col-6")
+                            button(class=" btn btn-outline-secondary home") Inicio
+                            button(class=" btn btn-outline-secondary cursos") Mis cursos
+                            button(class=" btn btn-outline-secondary quizzes") Quizzes
+                            button(class=" btn btn-outline-secondary estudios") Plan de estudios
+                            button(class=" btn btn-outline-secondary comunidad") Comunidad
+                            button(class=" btn btn-outline-secondary ayuda") Centro de ayuda
 
         div(class="container-fluid header")
             div(class="row")
@@ -48,9 +53,10 @@ html
                             div(class="row")
                                 div(class="col-2")
                                     i(class="fas fa-user-circle users")
-                                div(class="col-8")
+                                div(class="col-10")
                                         h3= entry.titulo
                                         p= entry.cuerpo
                                         img(src="../images/like.png")
                                         img(src="../images/dislike.png" class="dislike")
                                         img(src="../images/share.png" class="share")
+                                        img(src="../images/star.png" class="share")
