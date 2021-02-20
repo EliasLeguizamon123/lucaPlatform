@@ -1,0 +1,39 @@
+html 
+    include includes/head.pug
+    body 
+        div(container-fluid )
+            div(id="sidebar")
+                div(class="sidebar-header row")
+                    div(class="col-3")
+                        img(src="../images/lucaLogo.png")
+        div(class="container-fluid header")
+            div(class="row")
+                div(class="col-4")
+                    button(type="button" class="btn btn-outline-secondary explorar")  Explorar 
+                        i(class="fas fa-chevron-down")
+                    i(class="fas fa-search lents")
+                div(class="col")
+                    i(class="fas fa-fire popular") 0
+                    i(class="fas fa-shield-alt recent") 0
+                    i(class="fas fa-fan nice") 0
+                div(class="col-2")
+                    i(class="far fa-bell bell")
+                    i(class="fas fa-user-circle user")
+        div(class="container-fluid" id="body-question")
+            div(class="row")
+                div(class="col-7")
+                    p Haz una pregunta
+                div(class="col-4")
+                    a(href="/comunidad" class="btn btn-inline-secondary cancelar") CANCELAR
+            div(row)
+                div(class="col-9 formulario")
+                    form(method="post")
+                        div(class="form-group")
+                            label(for="title") Titulo de publicación
+                            input(type="text" name="title" id="title" class="form-control " placeholder="Escriba su titulo aquí" required)
+                        br
+                        div(class="form-group")
+                            label(for="body") Publicación 
+                            textarea(class="form-control" id="body" name="body" rows="3" placeholder="Escriba su prublicación aquí" required)
+                        div(class="form-group publicar")
+                            input(type="submit" value="PUBLICAR" class="btn btn-inline-secondary pregunta")

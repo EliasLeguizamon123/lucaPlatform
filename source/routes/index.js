@@ -3,7 +3,7 @@ const router = Router();
 
 //Router test
 router.get('/', (req, res)=>{
-    res.render('index');
+    res.render('index.pug', {title: 'Home'});
 });
 
 module.exports = router;

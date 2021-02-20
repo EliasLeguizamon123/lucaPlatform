@@ -1,5 +1,15 @@
 html 
-    head 
-    
+    include includes/head.pug
     body 
-        h1 hola mundo
+        div(container-fluid )
+            div(id="sidebar")
+                div(class="sidebar-header row")
+                    div(class="col-3")
+                        img(src="../images/lucaLogo.png")
+
+
+        div(class="container-fluid header")
+            div(class="row")
+                div(class="col-12 notifications")
+                    i(class="far fa-bell bell")
+                    i(class="fas fa-user-circle user")

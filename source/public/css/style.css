@@ -1,0 +1,168 @@
+body{
+    background-color: #F1F2F8;
+}
+
+.header{
+    background-color: #F1F2F8;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 27%;
+}
+
+i{
+    color: #9A9CB5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.explorar{
+    border: 2px solid #C6C7D4;
+    border-radius: 5px;
+    background-color: white;
+    font-family: 'Inter', sans-serif;
+    border-bottom: 4px solid #C6C7D4;
+}
+
+.lents{
+    padding-left: 2rem;
+    font-size: 1.4rem;
+}
+
+.popular, .bell{
+    padding-left: 18%;
+    font-size: 1.4rem;    
+    color: #D9DAE3;
+}
+
+.recent, .nice{
+    padding-left: 2rem;
+    font-size: 1.4rem;
+    color: #D9DAE3;
+}
+
+.bell{
+    color: #9A9CB5;
+}
+.user{
+    color: #3843D0;
+    padding-left: 1rem;
+    font-size: 1.4rem;
+}
+
+#sidebar{
+    padding-top: 2%;
+    padding-left: 1%;
+    position:absolute;
+    width: 25%;
+    height:100%;
+    background-color: #FFFFFF;
+    border: 1rem #9A9CB5;
+}
+
+.sidebar-header img{
+    height: 3rem;
+    align-items: left;
+    padding-bottom: 2%;
+    width: 90px;
+    height: 31.36px;
+    padding-left: 5%;
+}
+
+.sidebar-body{
+    font-family: 'Poppins', sans-serif;
+    padding-top: 3.2rem;
+    text-align: center;
+    list-style: none;
+}
+
+.btn-home{
+    border: 0;
+}
+
+#body-question{
+    padding-left: 27%;
+    padding-top: 3%;
+    background-color: #F1F2F8;
+}
+
+#body-question .comunidad-luca{
+    padding-left: 2rem;
+    font-size: 24px;
+}
+
+.pregunta{
+    background-color: #3843D0;
+    color: white;
+}
+
+    .pregunta:hover{
+        background-color: white;
+        color: #3843D0;
+        border: 1px solid #3843D0;
+    }
+
+.cancelar{
+    background-color: white;
+    border: 1px solid #3843D0;
+    color: #3843D0;
+}
+
+    .cancelar:hover{
+    background-color: #3843D0;
+    color: white;
+}
+
+.formulario{
+    padding-left: 2rem;
+}
+
+.publicar{
+    padding-top: 2rem;
+    padding-left: 80%;
+}
+
+#task p{
+    font-size: 13px;
+    padding-left: 1rem;
+}
+
+#task .popular{
+    color: #3843D0;
+}
+
+.barra{
+    background-color: #3843D0;
+}
+
+.notifications{
+    padding-left: 80%;
+}
+
+.tarjetas{
+    margin-top: 2rem;
+    margin-bottom: 0%;
+    background-color: #F1F2F8;
+    border: 0rem;
+}
+.tarjetas h3{
+    font-size: 16px;
+}
+
+.tarjetas p{
+    color: #828282;
+}
+    .tarjetas img:hover{
+        filter: invert(0.4);
+    }
+
+.users{
+    font-size: 4rem;
+    padding-bottom: 1rem;
+}
+
+.dislike{
+    margin-left: 2rem;
+}
+.share{
+    margin-left: 10rem;
+}
+
