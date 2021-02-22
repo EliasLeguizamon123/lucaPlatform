@@ -5,8 +5,7 @@
 ## 1 - Comandos útiles para configurar este software en tu PC correctamente
 
 ```
- npm install express body-parser morgan pug 
- npm install mysqljs/mysql
+ npm install
 ```
 
 ** IMPORTANTE **
