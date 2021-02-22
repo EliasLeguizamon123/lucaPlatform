@@ -28,7 +28,7 @@ Simplemente con el comando:
  npm run dev
 ```
 
-Podrá correr la app desde VScode o la terminal que posea en su equipo.
+Podrá correr la app desde VScode o la terminal que posea en su equipo, luego ingresar a la dirección Localhost:3000/comunidad
 
 ## 3 - Screenshots
 
