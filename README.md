@@ -42,7 +42,11 @@ Home actual de la web
 
 Crear preguntas dentro del sitio
 
-## 4 - Lista pendiente para el futuro
+## 4 - Live demo haciendo Deploy en Heroku web
+
+https://lucaplatform.herokuapp.com/comunidad
+
+## 5 - Lista pendiente para el futuro
 
 - [ ] Cambiar MySQL por MongoDB o Firebase
 - [ ] Cambiar las views de Pug por ReactJS
