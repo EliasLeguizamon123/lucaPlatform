@@ -8,7 +8,7 @@
  npm install
 ```
 
-** IMPORTANTE **
+**IMPORTANTE**
 
 Al utilizar una BD creada con MySQL es importante tener preparados los datos para ingresar, recomiendo utilizar WAMP (para Windows) o configurar si prefiere manualmente los datos:
 
