@@ -46,6 +46,8 @@ Crear preguntas dentro del sitio
 
 https://lucaplatform.herokuapp.com/comunidad
 
+**Existen algunos problemas actualmente para visualizar la web mediante Heroku**
+
 ## 5 - Lista pendiente para el futuro
 
 - [ ] Cambiar MySQL por MongoDB o Firebase
